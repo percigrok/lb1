@@ -14,8 +14,8 @@
 
   
 - **03_favorite_movies.py** - Извлекает фильмы из строки с помощью индексирования.
-  
-![03](https://github.com/user-attachments/assets/7cae6a22-947f-4607-b468-6915f69c23d8)
+  ![image](https://github.com/user-attachments/assets/99ca802b-4243-4c8f-a055-d5e95d607e24)
+
 
   
 - **04_my_family.py** – Работа со списками: хранение имен и роста членов семьи.
