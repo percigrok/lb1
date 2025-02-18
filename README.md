@@ -4,16 +4,16 @@
 
 ![00](https://github.com/user-attachments/assets/e79b9b2d-734a-4393-bde6-94a948e1db10)
 
-- **01_circle.py** – Решает арифметическую задачу с числами 1, 2, 3, 4, 5, чтобы получить 25.
+- **01_circle.py** – Вычисляет площадь круга
 
 ![01](https://github.com/user-attachments/assets/adea4c43-38d5-4bfe-852f-c064fb0ce6dd)
 
-- **02_operations.py** – Извлекает фильмы из строки с помощью индексирования.
+- **02_operations.py** – Решает арифметическую задачу с числами 1, 2, 3, 4, 5, чтобы получить 25.
   
 ![02](https://github.com/user-attachments/assets/b7d7ba17-f56f-4eb8-bc45-c9d0e18ad75d)
 
   
-- **03_favorite_movies.py** – Операции со списками: добавление, удаление, поиск элементов.
+- **03_favorite_movies.py** - Извлекает фильмы из строки с помощью индексирования.
   
 ![03](https://github.com/user-attachments/assets/7cae6a22-947f-4607-b468-6915f69c23d8)
 
