@@ -14,6 +14,7 @@
 
   
 - **03_favorite_movies.py** - Извлекает фильмы из строки с помощью индексирования.
+
   ![image](https://github.com/user-attachments/assets/99ca802b-4243-4c8f-a055-d5e95d607e24)
 
 
