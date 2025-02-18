@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 # Есть словарь координат городов
 
@@ -10,18 +12,16 @@ sites = {
 # Составим словарь словарей расстояний между ними
 # расстояние на координатной сетке - ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 
-distances = {}
+distances = {
+    'Moscow => London': (((550 - 510) ** 2 + (370 - 510) ** 2) ** 0.5),
+    'London => Paris': (((510 - 480) ** 2 + (510 - 480) ** 2) ** 0.5),
+    'Paris => Moscow': (((480 - 550) ** 2 + (480 - 370) ** 2) ** 0.5),
+}
+
 
 # TODO здесь заполнение словаря
-for city1, (x1, y1) in sites.items():
-    distances[city1] = {}
-    for city2, (x2, y2) in sites.items():
-        if city1 != city2:
-            distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
-            distances[city1][city2] = round(distance, 2)
 
 print(distances)
-
 
 
 
