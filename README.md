@@ -57,7 +57,12 @@
  * git add <file>
  * git push
  * git commit -m "msg"
- * git pull  
+ * git pull
+
+
+1. []().
+2. []().
+3. []().
 
     
 
