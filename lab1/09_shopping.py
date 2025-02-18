@@ -20,21 +20,18 @@ shops = {
 }
 
 # Создаем пустой словарь для сладостей
-sweets = {}
+sweets = {
 
-# Перебираем товары
-for sweet in ['печенье', 'конфеты', 'карамель', 'пирожное']:
-    prices = []  # Список цен в магазинах
-    for shop, items in shops.items():
-        for item in items:
-            if item['name'] == sweet:
-                prices.append({'shop': shop, 'price': item['price']})
+'печенье': [{'shop': 'пятерочка', 'price': 9.99}, {'shop': 'ашан', 'price': 10.99}], 
+ 'конфеты': [{'shop': 'магнит', 'price': 30.99}, {'shop': 'пятерочка', 'price': 32.99}], 
+ 'карамель': [{'shop': 'магнит', 'price': 41.99}, {'shop': 'ашан', 'price': 45.99}], 
+ 'пирожное': [{'shop': 'пятерочка', 'price': 59.99}, {'shop': 'магнит', 'price': 62.99}]
+}
 
-    # Оставляем только два магазина с минимальными ценами
-    min_prices = sorted(prices, key=lambda x: x['price'])[:2]
 
-    # Добавляем в словарь
-    sweets[sweet] = min_prices
+
+# Добавляем в словарь
+
 
 # Вывод результата
 print(sweets)
