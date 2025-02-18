@@ -61,9 +61,9 @@
  * git pull
 
 
-1. []().
-2. []().
-3. []().
+1. [The Python Tutorial](https://docs.python.org/3/tutorial/).
+2. [Python](https://code-basics.com/ru/languages/python).
+
 
     
 
